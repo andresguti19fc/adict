@@ -1,6 +1,6 @@
 import React from "react";
 import ItemList from "../itemList/ItemList.js";
-import Card from "../card/Card.js";
+/* import Card from "../card/Card.js"; */
 import Spiner from "../Spiner/Spiner.js";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -57,7 +57,7 @@ const ItemListContainer = function ({ title }) {
       </div>
       <ItemList items={items} />
       <div className="row gap-5 justify-content-center my-5 pb-4">
-        <Card />
+        {/* <Card /> */}
       </div>
     </div>
   );
@@ -73,7 +73,7 @@ const ItemListContainer = function ({ title }) {
         </div>
         <ItemList items={items} />
         <div className="row gap-5 justify-content-center my-5 pb-4">
-          <Card />
+          {/* <Card /> */}
         </div>
       </div>
       </>
