@@ -1,5 +1,5 @@
-/* import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons"; */
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import Counter from "../Counter/Counter"; 
 import Boton from "../boton/Boton";
 import { useContext, useState } from "react";
@@ -34,11 +34,11 @@ const cartOnAdd = (cantidad) => {
                 <b>{nombre}</b>
               </span>
               <div className="d-flex flex-row justify-content-center">
-                {/* <FontAwesomeIcon icon={faStar} className="text-warning" />
                 <FontAwesomeIcon icon={faStar} className="text-warning" />
                 <FontAwesomeIcon icon={faStar} className="text-warning" />
                 <FontAwesomeIcon icon={faStar} className="text-warning" />
-                <FontAwesomeIcon icon={faStar} /> */}
+                <FontAwesomeIcon icon={faStar} className="text-warning" />
+                <FontAwesomeIcon icon={faStar} />
               </div>
               <h3 className="fs-1 my-3">
                 <b>Precio:</b> {precio}{" "}
